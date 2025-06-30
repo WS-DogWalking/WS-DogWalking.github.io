@@ -1,1 +1,0 @@
-# WS-DogWalking.github.io
