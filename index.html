@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paw Patrol Dog Walking</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    .form-container { max-width: 400px; margin: auto; }
+    input, textarea { width: 100%; padding: 8px; margin: 10px 0; }
+    button { padding: 10px 20px; background: #4CAF50; color: white; border: none; }
+  </style>
+</head>
+<body>
+  <h1>Paw Patrol Dog Walking</h1>
+  <p>Experienced, friendly, and reliable dog walking in your neighborhood!</p>
+  <ul>
+    <li>🐶 Daily walks</li>
+    <li>🏡 In-home visits</li>
+    <li>📅 Flexible scheduling</li>
+  </ul>
+
+  <h2>Contact Us</h2>
+  <div class="form-container">
+    <form action="https://formspree.io/f/mldnzwoq" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Where can we contact you? (email social media and phone number)" required />
+      <input type="tel" name="phone" placeholder="What is your social phone or email as chosen above?" />
+      <input type="tel" name="phone" placeholder="What day of the week do you want your dog(s) walked" />
+      <input type="tel" name="phone" placeholder="What date and time do you want your dog(s) walked?" />
+      <textarea name="message" placeholder="How many dogs do you want walked?" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <h6 style="font-family: verdana">Made by Nny</h6>
+</body>
+</html>
